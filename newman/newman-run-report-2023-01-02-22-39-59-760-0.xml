@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Trello Dev Env" tests="27" time="0.000">
+  <testsuite name="Organization / Get a Member" id="17717db1-0976-41d2-a894-af59d981b303" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Organization / Create an Organization" id="8aba2e78-b483-4271-b502-cf6560adbb30" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Organization / Get Member's Org" id="a5b4a44c-d077-4158-af00-47628341ce54" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Organization / Get Org id" id="0d3169bd-01a4-4fb1-99fb-2756d2d94ef3" timestamp="2023-01-02T22:39:58.783Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Organization / Get Org id.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Organization / Add a member to WS" id="05142df7-d2c8-4cb2-829c-7830e7ecac62" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Board / Create a board" id="a886bdac-64bd-44dd-bed0-c134a36cb509" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Board / Update a Board" id="2ee749f2-e5fd-4d09-a6a0-8d04a74ebd85" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Board / Get a Board" id="810eacfd-a73a-4f6c-aa6b-4bb17a3ff769" timestamp="2023-01-02T22:39:58.783Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Board / Get a Board.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Board / Add a member to Board" id="86f6183d-1436-41f1-834f-c73461e6bc7d" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="List / Create a  List" id="2f461e7a-54f6-402c-be09-e2a229d766ca" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="List / Update a List" id="9d540a62-3984-4169-a372-5afd7360632b" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="List / Get a LIST" id="9933ebbf-3678-49bd-b1cb-7f242dfe559b" timestamp="2023-01-02T22:39:58.783Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: List / Get a LIST.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:12).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Card / Create a Card" id="43e22724-5e5a-4fa1-974f-e695f8e02797" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Card / Update a Card" id="bb8f28ae-43ff-4001-97e5-30b1bd704566" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Card / Update a Card.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the card name is updated correctly" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Card / Update a Card.]]>
+        <![CDATA[Test description: Verify the card name is updated correctly.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Card / Get a Card" id="55bf5a5d-3859-4005-9f53-4a737da0168f" timestamp="2023-01-02T22:39:58.783Z" tests="1" failures="1" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Card / Get a Card.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:15).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Member Actions / Member Create a List" id="7ffed3ab-38bb-484a-9277-76133cd7f0ca" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Member Actions / Member Create a Card" id="33ad0aa6-ea2d-4cfc-906a-674864432c75" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Member Actions / Member Delete Card" id="142bbbba-6c32-40f9-bb4b-d3674f4473c8" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200 on Card" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Member Actions / Member Delete Card.]]>
+        <![CDATA[Test description: Status code is 200 on Card.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify Card is not present after delete" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Member Actions / Member Delete Card.]]>
+        <![CDATA[Test description: Verify Card is not present after delete.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:18).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Member Actions / Member is Deleted from Board" id="24113474-2f0f-408c-aad7-6b562c809b34" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Member Actions / Member is Deleted from Org" id="7ff76f24-5db2-4425-9d6d-fd5a9d4efa2c" timestamp="2023-01-02T22:39:58.783Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="No Valid TCs / Create a board -Invalid Token" id="0964e3c5-5040-46cb-a625-b786cddee57d" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 401" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Create a board -Invalid Token.]]>
+        <![CDATA[Test description: Status code is 401.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:21).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the user with invalid token isn't able to create a board" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected response body to equal 'invalid token' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Create a board -Invalid Token.]]>
+        <![CDATA[Test description: Verify the user with invalid token isn't able to create a board.]]>
+        <![CDATA[Error message: expected response body to equal 'invalid token' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to equal 'invalid token' but got undefined
+   at Object.eval sandbox-script.js:2:21).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="No Valid TCs / Member Update a Board - NoAllow" id="6593ebcd-d1b2-494a-ac40-553acdca7855" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 401" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Update a Board - NoAllow.]]>
+        <![CDATA[Test description: Status code is 401.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:22).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the user isn't allowed to update the Board(name|color)" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected response body to equal 'unauthorized permission requested' but got undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Update a Board - NoAllow.]]>
+        <![CDATA[Test description: Verify the user isn't allowed to update the Board(name|color).]]>
+        <![CDATA[Error message: expected response body to equal 'unauthorized permission requested' but got undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to equal 'unauthorized permission requested' but got undefined
+   at Object.eval sandbox-script.js:2:22).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="No Valid TCs / Member Create a board -NoAuth" id="3f51bd18-2659-46b7-8a77-271a309600f0" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 401" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Create a board -NoAuth.]]>
+        <![CDATA[Test description: Status code is 401.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the user can't access to create a board when is not a member" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'unauthorized organization.'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Create a board -NoAuth.]]>
+        <![CDATA[Test description: Verify the user can't access to create a board when is not a member.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'unauthorized organization.'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'unauthorized organization.'
+   at Object.eval sandbox-script.js:2:23).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="No Valid TCs / Member Create a List -NoAuth" id="952a1dea-8344-4f26-9914-e1752cb29c21" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 401" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Create a List -NoAuth.]]>
+        <![CDATA[Test description: Status code is 401.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the user can't access to create a list when is not a member" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'unauthorized permission requested'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: No Valid TCs / Member Create a List -NoAuth.]]>
+        <![CDATA[Test description: Verify the user can't access to create a list when is not a member.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'unauthorized permission requested'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'unauthorized permission requested'
+   at Object.eval sandbox-script.js:2:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Delete a Card" id="0893710a-e216-46c4-b99c-2c8598ea769c" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200 on Card" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete a Card.]]>
+        <![CDATA[Test description: Status code is 200 on Card.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify Card is not present after delete" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete a Card.]]>
+        <![CDATA[Test description: Verify Card is not present after delete.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:25).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Delete a Board" id="dbda7f2f-e695-4acb-b6e3-b1c39e175ee0" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete a Board.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify returns null after delete a Board" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete a Board.]]>
+        <![CDATA[Test description: Verify returns null after delete a Board.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Delete an Organization" id="3260b016-05b5-477f-ad23-10a516b8921b" timestamp="2023-01-02T22:39:58.783Z" tests="2" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:71:26)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete an Organization.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify returns undefined after delete an Org" time="0.000" classname="TrelloDevEnv">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6c0a86aa-3cc8-4c9e-a364-eed08ac3fba7.]]>
+        <![CDATA[Collection name: Trello Dev Env.]]>
+        <![CDATA[Request name: Delete an Organization.]]>
+        <![CDATA[Test description: Verify returns undefined after delete an Org.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

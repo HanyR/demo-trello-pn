@@ -1,0 +1,29 @@
+name: Postman Newman Runner
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install newman #por las dudas install antes ya que es necesario para CI
+      - run: npm run test
+      - name: Publish Test Report
+        if: always() #always run even if the previous step fails
+        with:
+          report_paths: 'newman/*.xml'

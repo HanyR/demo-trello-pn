@@ -1,0 +1,32 @@
+{
+  "name": "newmpost_frame",
+  "version": "1.0.0",
+  "description": "postman newman runner",
+  "main": "main.ts",
+  "scripts": {
+    "clean": "rimraf ./newman",
+    "test": "npm run clean && npx ts-node ./src/main.ts" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanyR/postman_newman_v1.git"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "testautomation"
+  ],
+  "author": "HanyRP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanyR/postman_newman_v1/issues"
+  },
+  "homepage": "https://github.com/HanyR/postman_newman_v1#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/newman": "^5.3.1",
+    "@types/node": "^18.11.18"
+  }
+}
