@@ -1,10 +1,10 @@
 name: Postman Newman Runner
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
+#  push:
+ #   branches: [ main ]
+  #pull_request:
+   # branches: [ main ]
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm install newman #por las dudas install antes ya que es necesario para CI
+      - run: npm install -g newman #por las dudas install antes ya que es necesario para CI
       - run: npm run test
       - name: Publish Test Report
         if: always() #always run even if the previous step fails

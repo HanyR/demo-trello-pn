@@ -505,6 +505,7 @@ RequestError: Error: getaddrinfo ENOTFOUND {{base_url}}
         <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
         <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
    at Object.eval sandbox-script.js:2:27).]]>
+   
       </failure>
     </testcase>
   </testsuite>
