@@ -5,11 +5,11 @@
   "main": "main.ts",
   "scripts": {
     "clean": "rimraf ./newman",
-    "test": "npm run clean && npx ts-node ./src/main.ts" 
+    "test": "npm run clean && npx ts-node ./src/main.js" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HanyR/postman_newman_v1.git"
+    "url": "git+https://github.com/HanyR/demo-trello-pn.git"
   },
   "keywords": [
     "postman",
@@ -19,9 +19,9 @@
   "author": "HanyRP",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HanyR/postman_newman_v1/issues"
+    "url": "https://github.com/HanyR/demo-trello-pn.git"
   },
-  "homepage": "https://github.com/HanyR/postman_newman_v1#readme",
+  "homepage": "https://github.com/HanyR/demo-trello-pn.git#readme",
   "dependencies": {
     "typescript": "^4.9.4"
   },

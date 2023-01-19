@@ -22,8 +22,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install -g newman #por las dudas install antes ya que es necesario para CI
+      - run: npm ci
       - run: npm run test
       - name: Publish Test Report
         if: always() #always run even if the previous step fails
         with:
-          report_paths: 'newman/*.xml'
+          report_paths: 'reports/*.xml'
